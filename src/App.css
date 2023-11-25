@@ -1,0 +1,43 @@
+.custom-editor-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.save-btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding-inline: 40px;
+  font-weight: bold;
+  height: 40px;
+  box-shadow: #000000 3px 3px 0px;
+  position: absolute;
+  right: 5px;
+  transition: 0.5s all;
+  border: 5px solid #000000;
+}
+
+.save-btn:hover {
+  box-shadow: #000000 5px 5px 0px;
+}
+
+.editor-wrapper {
+  width: 100%;
+  height: 600px;
+  padding-top: 30px;
+}
+
+.DraftEditor-root,
+.DraftEditor-editorContainer,
+.public-DraftEditor-content {
+  width: 100%;
+  height: 100%;
+}
+
+.DraftEditor-root {
+  border: 4px solid #95bcf2;
+}
